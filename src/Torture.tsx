@@ -1,8 +1,6 @@
 
 import React, { FC, useMemo, useState } from 'react';
-import { Formik, Form, Field, ErrorMessage, FormikErrors } from 'formik';
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
-import { ExclamationCircleIcon } from '@heroicons/react/20/solid'
+import { Formik, FormikErrors } from 'formik';
 import * as Yup from 'yup';
 
 const PATTERNS = ["-", "|", "o", "/", "\\"] as const;
@@ -72,8 +70,6 @@ interface TortureParams {
   repetitions: number,
   waitAfterStep: number | null
 }
-
-type TortureParamsKeys = keyof TortureParams;
 
 function createInitialValues(): TortureParams {
   return {
