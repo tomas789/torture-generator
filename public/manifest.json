@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "3D Printer Torture Generator",
+  "name": "Generate a G-Code to torture your 3D printer.",
   "icons": [
     {
       "src": "favicon.ico",
