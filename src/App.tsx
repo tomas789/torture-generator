@@ -1,10 +1,10 @@
 import './App.css';
-import Torture from "./Torture";
+import Layout from "./Layout";
 
 function App() {
   return (
     <div className="App">
-      <Torture />
+      <Layout />
     </div>
   );
 }
